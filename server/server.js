@@ -311,7 +311,7 @@ app.start = function () {
     );
   });
 };
-
+// start the server if node server.js
 // start the server if `$ node server.js`
 if (require.main === module) {
   if (process.env.NODE_ENV === 'production') {
